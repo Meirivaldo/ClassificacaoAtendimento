@@ -84,7 +84,7 @@ public class Main {
         System.out.println("\n");
         int numberAleatory = number.nextInt(99999);
         System.out.println("Your password is: 23" + numberAleatory);
-        System.out.println("See you later! " + mOrFString + name );
+        System.out.println("See you later! " + mOrFString + name + ("\n") + timeNow);
     }
 
 }
